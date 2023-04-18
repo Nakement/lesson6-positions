@@ -1,0 +1,56 @@
+/*header styles*/
+
+
+.f-left {
+	float: left;
+}
+.f-right {
+	float: right;
+}
+.header {
+	background-color: grey;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 120px;
+}
+.header::after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+.logo {
+	position: absolute;
+	top: 4px;
+	left: 140px;
+}
+.navigation {
+	position: absolute;
+	top: 49px;
+	left: 397px;
+}
+.nav-li {
+	display: inline-block;
+	margin-right: 47px;
+}
+
+/*section 1 styles*/
+
+.section-1 {
+	width: 100%;
+	height: 382;
+	position: relative;
+	top: 121px;
+	left: 0;
+}
+.banner-img {
+	width: 100%;
+	height: 382;
+}
+.banner-text {
+	width: 306px;
+	height: 91px;
+}
+
+
